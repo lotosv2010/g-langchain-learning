@@ -1,7 +1,7 @@
 import { createDeepAgent, type DeepAgent, type DeepAgentTypeConfig } from "deepagents";
 import { MultiServerMCPClient } from "@langchain/mcp-adapters";
-import { ollamaModel } from "./models";
-import { mcpServers } from "./mpc-tool-config";
+import { ollamaModel } from "../models";
+import { mcpServers } from "../mpc-tool-config";
 
 async function initAgent() {
   // 初始化 ChatOllama 模型
