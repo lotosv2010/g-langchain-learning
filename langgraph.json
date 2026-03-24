@@ -4,7 +4,8 @@
     "agent": "./src/index.ts:agent",
     "deep-agent": "./src/index.ts:deepAgent",
     "chat-agent": "./src/index.ts:chatAgent",
-    "weather-agent": "./src/index.ts:weatherAgent"
+    "weather-agent": "./src/index.ts:weatherAgent",
+    "local-mcp-agent": "./src/index.ts:localMcpAgent"
   },
   "env": ".env",
   "dependencies": ["./src"]
